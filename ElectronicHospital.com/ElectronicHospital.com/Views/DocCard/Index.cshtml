@@ -1,0 +1,97 @@
+﻿@model ElectronicHospital.com.Models.DoctorAndUsers
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="margin-left: 10%; margin-top: 5%; overflow-x: hidden; overflow-y: hidden; bottom: 0px;">
+<div class="row" style="overflow-x: hidden; overflow-y: hidden;">
+    <div class="col-md-3" style="overflow-x: hidden; overflow-y: hidden;">
+        <aside>
+            <section>
+                <img src="@Model.Doctor.Picture" alt="" width="250" height="107"  class="img-thumbnail">
+                <br />
+            </section>
+            <nav>
+                <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Панель інформації</h3>
+  </div>
+  <div class="panel-body">
+      <p>@Model.Doctor.LastName  @Model.Doctor.FirstName  @Model.Doctor.FathersName</p>
+      <p>@Model.Doctor.Email</p>
+      <p>@Model.Doctor.WorkPlace</p>
+      <p>@Model.Doctor.Position</p>
+      <p>@Model.Doctor.Gender</p>
+    
+  </div>
+</div>
+            </nav>
+        </aside>
+    </div>
+    <div class="col-md-7" style="overflow-x: hidden; overflow-y: hidden;">
+        @using (Html.BeginForm("Index", "DocCard", FormMethod.Post))
+        {
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                <legend></legend>
+            
+                <div class="row">
+                    <div class="col-md-3">
+                        @Html.TextBoxFor(model=> model.LastName,  new { @class = "form-control", @placeholder="Прізвище" })
+                    </div>
+                    <div class="col-md-3">
+                        @Html.TextBoxFor(model=> model.FirstName,  new { @class = "form-control", @placeholder="Ім'я" })             
+                    </div>
+                     <div class="col-md-3">
+                        @Html.TextBoxFor(model=> model.FatherName,  new { @class = "form-control", @placeholder="По-батькові" })             
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-primary">Знайти</button>
+                    </div>
+                </div>
+            </fieldset>
+        }
+        <div class="form-group">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th style="font-size: 15px; color: #3366FF">Номер</th>
+                        <th style="font-size: 15px; color: #3366FF">Дата народження</th>
+                        <th style="font-size: 15px; color: #3366FF">Список пацієнтів</th>
+                        <th style="font-size: 15px; color: #3366FF">Деталі</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   @for (var i = 0; i < Model.Users.Count; i++)
+                    {
+                        var count = i % 2;
+                        if (count == 0)
+                        {
+                            <tr class="info">
+                                <td>@(i + 1)</td>
+                                <td>@Model.Users[i].DateOfBirth</td>
+                                <td>@Model.Users[i].LastName @Model.Users[i].FirstName @Model.Users[i].FathersName</td>
+                                <td>@Html.ActionLink("Деталі", "Details","Card", new {user=@Model.Users[i].UserName}, null)</td>
+                            </tr>
+                        }
+                        else
+                        {
+                            <tr class="success">
+                                <td>@(i + 1)</td>
+                               <td>@Model.Users[i].DateOfBirth</td>
+                                <td>@Model.Users[i].LastName @Model.Users[i].FirstName @Model.Users[i].FathersName</td>
+                                <td></td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+ </div>
+
+

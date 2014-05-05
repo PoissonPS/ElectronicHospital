@@ -1,0 +1,110 @@
+﻿@model ElectronicHospital.com.Models.UserAndCard
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="margin-left: 10%; margin-top: 5%; overflow-x: hidden; overflow-y: hidden; bottom: 0px;">
+<div class="row" style="overflow-x: hidden; overflow-y: hidden;">
+    <div class="col-md-3" style="overflow-x: hidden; overflow-y: hidden;">
+        <aside>
+
+            <section>
+                <img src="@Model.User.Picture" alt="" width="250" height="107"  class="img-thumbnail">
+                <br />
+
+            </section>
+            <nav>
+                <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Панель інформації</h3>
+  </div>
+  <div class="panel-body">
+      <p>@Model.User.LastName  @Model.User.FirstName  @Model.User.FathersName</p>
+      <p>@Model.User.DateOfBirth</p>
+      <p>@Model.User.Gender</p>
+      <p>@Model.User.PlaceOfBirth</p>
+  </div>
+</div>
+                    
+
+            </nav>
+
+
+        </aside>
+    </div>
+    <div class="col-md-7" style="overflow-x: hidden; overflow-y: hidden;">
+        @using (Html.BeginForm("Index", "Card", FormMethod.Post))
+        {
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                <legend></legend>
+            
+                <div class="row">
+                    <div class="col-md-3">
+                        @Html.DropDownListFor(model => model.Type, new List<SelectListItem>{new SelectListItem{Text="Усі записи"}, new SelectListItem{Text = "Захворювання"}, new SelectListItem{Text="Аналізи"}, new SelectListItem{Text="Рецепти"}},new { @class = "form-control" })
+                        
+                    </div>
+                    <div class="col-md-3">
+                        @Html.TextBoxFor(model=> model.From,  new { @class = "form-control", @placeholder="Від   yyyy-MM-dd" })
+                    </div>
+                    <div class="col-md-3">
+                        @Html.TextBoxFor(model=> model.To,  new { @class = "form-control", @placeholder="До   yyyy-MM-dd" })
+               
+                    </div>
+                    <div class="col-md-3">
+                   
+                     
+                        <button type="submit" class="btn btn-primary">Знайти</button>
+                       
+            
+                    </div>
+
+                </div>
+
+           
+            </fieldset>
+        }
+        <div class="form-group">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th style="font-size: 15px; color: #3366FF">Номер</th>
+                        <th style="font-size: 15px; color: #3366FF">Дата</th>
+                        <th style="font-size: 15px; color: #3366FF">Назва</th>
+                        <th style="font-size: 15px; color: #3366FF">Опис</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (var i = 0; i < Model.Items.Count; i++)
+                    {
+                        var count = i % 2;
+                        if (count == 0)
+                        {
+                            <tr class="info">
+                                <td>@(i + 1)</td>
+                                <td>@Model.Items[i].DateFrom  @Model.Items[i].DateTo</td>
+                                <td>@Model.Items[i].Name</td>
+                                <td>@Model.Items[i].Description</td>
+                            </tr>
+                        }
+                        else
+                        {
+                            <tr class="success">
+                                <td>@(i + 1)</td>
+                                <td>@Model.Items[i].DateFrom  @Model.Items[i].DateTo</td>
+                                <td>@Model.Items[i].Name</td>
+                                <td>@Model.Items[i].Description</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+    </div>
+
+

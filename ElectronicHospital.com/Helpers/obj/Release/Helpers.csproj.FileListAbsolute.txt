@@ -1,0 +1,5 @@
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\Helpers\bin\Release\Helpers.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\Helpers\bin\Release\Helpers.pdb
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\Helpers\obj\Release\Helpers.csprojResolveAssemblyReference.cache
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\Helpers\obj\Release\Helpers.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\Helpers\obj\Release\Helpers.pdb

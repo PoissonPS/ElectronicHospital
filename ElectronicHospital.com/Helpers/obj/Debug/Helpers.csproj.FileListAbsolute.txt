@@ -1,0 +1,5 @@
+C:\Users\OIlnytskiy\Documents\Visual Studio 2012\Projects\ElectronicHospital.com\Helpers\bin\Debug\Helpers.dll
+C:\Users\OIlnytskiy\Documents\Visual Studio 2012\Projects\ElectronicHospital.com\Helpers\bin\Debug\Helpers.pdb
+C:\Users\OIlnytskiy\Documents\Visual Studio 2012\Projects\ElectronicHospital.com\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+C:\Users\OIlnytskiy\Documents\Visual Studio 2012\Projects\ElectronicHospital.com\Helpers\obj\Debug\Helpers.dll
+C:\Users\OIlnytskiy\Documents\Visual Studio 2012\Projects\ElectronicHospital.com\Helpers\obj\Debug\Helpers.pdb

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Електронна лікарня</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href='http://twitter.github.com/bootstrap/assets/css/docs.css' rel='stylesheet'>
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    <div class="">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="../" class="navbar-brand" style="font-size: 30px; margin-left: 5%">Електронна лікарня</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+
+                <div class="pull-right" style="margin-top: 20px; margin-right: 10%">
+                    <ul class="nav nav-pills">
+                        <li class="active">@Html.ActionLink("Головна", "Index", "Home")</li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Увійти
+                    <span class="caret"></span></a>
+
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Пацієнт", "Login", "User")</li>
+                                <li>@Html.ActionLink("Лікар", "Login", "Doctor")</li>
+                            </ul>
+                        </li>
+                        <li>@Html.ActionLink("Допомога", "Index", "Help")</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="body">
+        @RenderSection("featured", required: false)
+        <section class="content-wrapper main-content clear-fix">
+            @RenderBody()
+        </section>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,47 @@
+﻿@model ElectronicHospital.com.Models.User
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="modal-dialog" style="margin-top: 100px;  overflow-x: hidden; overflow-y: hidden;" >
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="text-center">Вхід для пацієнтів</h1>
+        </div>
+        <div class="modal-body">
+
+             @Html.ValidationSummary(true, "Login failed. Check your login details.")
+            <form class="col-md-12 center-block" method="POST" action="@Url.Action("Login")">
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "form-control input-lg", @placeholder="Логін" })
+                    @Html.ValidationMessageFor(m => m.UserName)
+                </div>
+                <div class="form-group">
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control input-lg", @placeholder="Пароль" })
+                    @Html.ValidationMessageFor(m => m.Password)
+                </div>
+                <div class="form-group">
+                   <input type="submit" value="Увійти" class="btn btn-primary btn-lg btn-block"/>
+                    
+                    <span class="pull-right"><a href="#">Зареєструватися</a></span>
+                    <div class="editor-label">
+                        @Html.CheckBoxFor(u => u.RememberMe)
+                        @Html.LabelFor(u => u.RememberMe)
+                    </div>
+                </div>
+             
+            </form>
+        </div>
+        <div class="modal-footer">
+            <div class="col-md-12">
+                <button class="btn" data-dismiss="modal" aria-hidden="true"><a href="https://vk.com"></a> Cancel</button>
+            </div>	
+        </div>
+    </div>
+</div>
+
+
+
+  

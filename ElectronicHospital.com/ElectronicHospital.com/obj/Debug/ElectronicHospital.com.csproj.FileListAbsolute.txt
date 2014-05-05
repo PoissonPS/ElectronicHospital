@@ -1,0 +1,66 @@
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\ElectronicHospital.com.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\ElectronicHospital.com.pdb
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\Antlr3.Runtime.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\EntityFramework.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\Helpers.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\Newtonsoft.Json.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Net.Http.Formatting.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Http.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Http.WebHost.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Mvc.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Optimization.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Providers.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Razor.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.Deployment.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.Razor.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\WebGrease.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\Helpers.pdb
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\EntityFramework.xml
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\Newtonsoft.Json.xml
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Net.Http.Formatting.xml
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Http.xml
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Http.WebHost.xml
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Mvc.xml
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Razor.xml
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.xml
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.Deployment.xml
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.Razor.xml
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\obj\Debug\ElectronicHospital.com.csprojResolveAssemblyReference.cache
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\obj\Debug\ElectronicHospital.com.dll
+C:\Users\OIlnytskiy\documents\visual studio 2012\Projects\ElectronicHospital.com\ElectronicHospital.com\obj\Debug\ElectronicHospital.com.pdb
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\ElectronicHospital.com.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\ElectronicHospital.com.pdb
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\Antlr3.Runtime.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\EntityFramework.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\Helpers.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\Newtonsoft.Json.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Net.Http.Formatting.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Http.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Http.WebHost.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Mvc.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Optimization.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Providers.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Razor.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.Razor.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\WebGrease.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\Helpers.pdb
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\EntityFramework.xml
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\Newtonsoft.Json.xml
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Net.Http.Formatting.xml
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Http.xml
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Http.WebHost.xml
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Mvc.xml
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.Razor.xml
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.xml
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\bin\System.Web.WebPages.Razor.xml
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\obj\Debug\ElectronicHospital.com.csprojResolveAssemblyReference.cache
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\obj\Debug\ElectronicHospital.com.dll
+C:\Users\RemitAdmin\Desktop\ElectronicHospital.com\ElectronicHospital.com\ElectronicHospital.com\obj\Debug\ElectronicHospital.com.pdb
